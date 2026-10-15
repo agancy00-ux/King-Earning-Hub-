@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080816">
+
+  <title>KING EARNING HUB | Join Telegram</title>
+
+  <meta name="description"
+    content="Join KING EARNING HUB on Telegram for earning-related updates, useful information and community posts.">
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '2077923256176073');
+  fbq('track', 'PageView');
+  </script>
+
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=2077923256176073&ev=PageView&noscript=1"
+      alt="">
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --gold: #ffd76a;
+      --gold2: #ffae25;
+      --white: #ffffff;
+      --muted: #b9bad0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--white);
+      background:
+        radial-gradient(ellipse at 15% 15%, #34205e 0%, transparent 40%),
+        radial-gradient(ellipse at 85% 80%, #123d55 0%, transparent 40%),
+        linear-gradient(135deg, #080816, #15102c, #061b28);
+      background-size: 200% 200%;
+      animation: backgroundMove 12s ease infinite;
+      overflow-x: hidden;
+    }
+
+    @keyframes backgroundMove {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+
+    .page {
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 18px;
+      position: relative;
+      isolation: isolate;
+    }
+
+    .glow {
+      position: fixed;
+      width: 230px;
+      height: 230px;
+      border-radius: 50%;
+      background: #a855f7;
+      filter: blur(110px);
+      opacity: .22;
+      z-index: -1;
+      top: 12%;
+      left: -100px;
+      pointer-events: none;
+    }
+
+    .glow.two {
+      background: #06b6d4;
+      top: auto;
+      left: auto;
+      bottom: 5%;
+      right: -100px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 480px;
+      padding: 36px 25px 27px;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 28px;
+      background: rgba(15, 15, 36, .78);
+      box-shadow: 0 25px 80px rgba(0,0,0,.4);
+      backdrop-filter: blur(18px);
+      animation: cardEnter .8s ease both;
+    }
+
+    @keyframes cardEnter {
+      from {
+        opacity: 0;
+        transform: translateY(25px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .crown {
+      font-size: 40px;
+      margin-bottom: 12px;
+      filter: drop-shadow(0 0 16px rgba(255,215,106,.5));
+    }
+
+    .logo {
+      width: 105px;
+      height: 105px;
+      margin: 0 auto 22px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 28px;
+      border: 2px solid rgba(255,215,106,.8);
+      background: linear-gradient(145deg, #33245d, #11152e);
+      box-shadow: 0 0 35px rgba(255,190,60,.15);
+      font-size: 48px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 8px 13px;
+      margin-bottom: 18px;
+      border-radius: 30px;
+      color: var(--gold);
+      background: rgba(255,215,106,.09);
+      border: 1px solid rgba(255,215,106,.22);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2px;
+    }
+
+    h1 {
+      font-size: clamp(29px, 8vw, 39px);
+      line-height: 1.15;
+      font-weight: 900;
+      letter-spacing: 1px;
+      overflow-wrap: anywhere;
+    }
+
+    h1 span {
+      display: block;
+      margin-top: 5px;
+      color: var(--gold);
+      text-shadow: 0 0 24px rgba(255,190,60,.15);
+    }
+
+    .subtitle {
+      margin: 17px auto 23px;
+      max-width: 350px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .telegram-icon {
+      display: inline-flex;
+      width: 23px;
+      height: 23px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: rgba(255,255,255,.2);
+      font-size: 14px;
+    }
+
+    .cta {
+      position: relative;
+      isolation: isolate;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      min-height: 59px;
+      margin: 0 auto 17px;
+      padding: 16px 12px;
+      overflow: hidden;
+      border: none;
+      border-radius: 15px;
+      color: #17101d;
+      background: linear-gradient(100deg, #ffe99b, #ffc342, #ffad26);
+      box-shadow: 0 8px 28px rgba(255,184,49,.25);
+      font-size: 15px;
+      font-weight: 900;
+      letter-spacing: .5px;
+      text-decoration: none;
+      animation: buttonPulse 2s infinite;
+      transition: transform .2s, box-shadow .2s;
+    }
+
+    .cta::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: -100%;
+      width: 60%;
+      height: 100%;
+      transform: skewX(-25deg);
+      background: rgba(255,255,255,.55);
+      animation: shine 3s infinite;
+    }
+
+    .cta:hover {
+      transform: translateY(-3px) scale(1.01);
+      box-shadow: 0 12px 35px rgba(255,184,49,.4);
+    }
+
+    @keyframes shine {
+      0%, 55% { left: -100%; }
+      85%, 100% { left: 150%; }
+    }
+
+    @keyframes buttonPulse {
+      0%, 100% { box-shadow: 0 8px 25px rgba(255,184,49,.2); }
+      50% { box-shadow: 0 8px 34px rgba(255,184,49,.45); }
+    }
+
+    .secure-note {
+      color: #a5a6bc;
+      font-size: 11px;
+      line-height: 1.7;
+    }
+
+    .divider {
+      height: 1px;
+      margin: 25px 0;
+      background: linear-gradient(
+        90deg, transparent, rgba(255,255,255,.2), transparent
+      );
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      text-align: left;
+    }
+
+    .feature {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      padding: 14px;
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 14px;
+      background: rgba(255,255,255,.035);
+    }
+
+    .feature-icon {
+      flex-shrink: 0;
+      width: 42px;
+      height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      background: rgba(255,215,106,.1);
+      font-size: 21px;
+    }
+
+    .feature h3 {
+      margin-bottom: 5px;
+      font-size: 13px;
+      color: #fff;
+    }
+
+    .feature p {
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .disclaimer {
+      margin-top: 22px;
+      color: #a5a6bc;
+      font-size: 10px;
+      line-height: 1.8;
+    }
+
+    footer {
+      max-width: 480px;
+      padding: 18px 10px 0;
+      text-align: center;
+      color: #9394aa;
+      font-size: 11px;
+      line-height: 1.8;
+    }
+
+    @media (max-width: 380px) {
+      .card {
+        padding: 29px 17px 22px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      .cta {
+        font-size: 13px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation: none !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="glow"></div>
+  <div class="glow two"></div>
+
+  <main class="page">
+    <section class="card">
+
+      <div class="crown" aria-hidden="true">👑</div>
+
+      <div class="logo" aria-label="King Earning Hub logo">
+        💎
+      </div>
+
+      <div class="eyebrow">WELCOME TO OUR CHANNEL</div>
+
+      <h1>
+        KING
+        <span>EARNING HUB</span>
+      </h1>
+
+      <p class="subtitle">
+        Discover earning-related updates, useful information
+        and community posts — all in one place on Telegram.
+      </p>
+
+      <!-- Telegram CTA -->
+      <a
+        class="cta"
+        href="https://t.me/+xn84oUW5JpQ3NjU1"
+        target="_blank"
+        rel="noopener noreferrer"
+        onclick="if(typeof fbq==='function'){fbq('track','Contact',{content_name:'Telegram Join Click'});}"
+      >
+        <span class="telegram-icon">➤</span>
+        JOIN TELEGRAM NOW
+        <span aria-hidden="true">→</span>
+      </a>
+
+      <p class="secure-note">
+        ↗ Opens Telegram to view and join the community
+      </p>
+
+      <div class="divider"></div>
+
+      <div class="features">
+
+        <div class="feature">
+          <div class="feature-icon">📢</div>
+          <div>
+            <h3>Latest Updates</h3>
+            <p>Get earning-related news and community announcements.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">📚</div>
+          <div>
+            <h3>Useful Information</h3>
+            <p>Explore tips and information to support informed decisions.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">🤝</div>
+          <div>
+            <h3>Channel Access</h3>
+            <p>Visit our Telegram community for shared updates and discussions.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="disclaimer">
+        <strong>Disclaimer:</strong> This Page does not guarantee
+        income or profits. Results may vary. Always verify information
+        independently and be cautious of scams. Never share passwords,
+        OTPs or sensitive financial information. Participation is voluntary.
+      </p>
+
+    </section>
+
+    <footer>
+      © <span id="year"></span> KING EARNING HUB.
+      All rights reserved.
+      <br>
+      Independent Telegram Channel.
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
